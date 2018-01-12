@@ -11,3 +11,37 @@
        vertical-align:middle;
        line-height:200px;
 }
+
+#features {
+	padding: 30px;
+}
+
+#free1 {
+	background-color: rgb(141,205,191);
+}
+
+#free2 {
+	background-color: rgb(151,216,202);
+}
+
+#standard1 {
+	background-color: rgb(105,196,221);
+}
+
+#standard2 {
+	background-color: rgb(118,205,230);
+}
+
+#premium1 {
+	background-color: rgb(211,93,110);
+}
+
+#premium2 {
+	background-color: rgb(219,107,123);
+}
+
+#footer {
+	margin-bottom:0;
+	height: 300px;
+	padding-top: 80px;
+}
