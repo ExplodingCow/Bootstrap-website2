@@ -1,15 +1,33 @@
-#stupidphoto {
-	    position: absolute;
-	    top: 0; right: 0;
-	    bottom: 0; left: 0;
-	    width: 300px;
-	    height: 200px; 
-	    text-align: center;
-	    background-color: rgba(0,0,0,0.8);
-	    opacity: 0;
-	    transition: opacity 0.6s;
-       vertical-align:middle;
-       line-height:200px;
+#mainimage {
+	background-image: url(images/landscape.jpg);
+  	background-position: 0% 25%;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	color: white;
+  	padding-bottom: 700px;
+}
+
+#containerimage {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+}
+
+#hr4image {
+	border: none;
+	height: 1px;
+	background-color:white;
+}
+
+.btn-space1 {
+	margin-right: 10px;
+	opacity: 0.5;
+}
+
+.btn-space2 {
+	margin-left: 10px;
+	opacity: 0.5;
 }
 
 #features {
